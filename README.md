@@ -52,18 +52,6 @@ WinVNC Web Server 3.3.3r7 - GET Overflow (Metasploit)
 
 **Задание 2.**
 
-Установим поддержку luks:
-sudo apt install cryptsetup -y
-
-Создадим новый раздел размером 100 МБ с помощью утилиты gparted:
-
-sudo apt install gparted -y
-sudo gparted
-![img](https://github.com/vadimtsvetkov/information_security-HW_13-02/blob/main/2.1.jpg)
-![img](https://github.com/vadimtsvetkov/information_security-HW_13-02/blob/main/2.2.jpg)
-
-Зашифруем созданный раздел:
-
 Проведем сканирование nmap в режиме SYN:
 sudo nmap -sS 10.0.2.10
 
